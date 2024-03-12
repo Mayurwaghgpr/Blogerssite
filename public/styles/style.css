@@ -5,7 +5,6 @@
 main{
     display: flex;
     flex-direction: column;
-
 }
 form {
     display: flex;
@@ -17,6 +16,25 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.form button{
+    border: none;
+    border-radius: 20%;
+}
+.live-blog{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.live-blog p{
+    /* width: ; */
+    text-align: center; 
 }
 .write-blog textarea{
     height: 400px;

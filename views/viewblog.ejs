@@ -1,10 +1,11 @@
 <%-include("partials/header.ejs") %>
 
-<% if(bolgs && blogername) {%>
+<div class="live-blog"><% if(bolgs && blogername) {%>
 <h1><%=blogername %></h1>
 <p><%=bolgs %></p>
 <% } else{%>
     <h1>welcom toblogers hub</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non animi saepe inventore vel ratione doloribus laboriosam. Sunt quisquam quis tempore, autem explicabo consequuntur provident. Voluptatum alias sint fugit laudantium nihil.</p>
 <%}%>
+</div>
 <%-include("partials/footer.ejs") %>
