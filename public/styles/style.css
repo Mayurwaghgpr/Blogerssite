@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+form {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+.write-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.write-blog textarea{
+    height: 400px;
+    width: 500px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(176, 176, 211);
+}
